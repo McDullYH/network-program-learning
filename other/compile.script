@@ -1,0 +1,2 @@
+g++ -g -Wall  -DOPEN_LOG test.c -o test
+g++ -g -Wall  -DOPEN_LOG demo.c -o demo

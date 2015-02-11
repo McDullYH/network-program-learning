@@ -1,0 +1,6 @@
+#g++ -g -Wall  -DOPEN_LOG server1.c  handle.c utils.c -o server1
+#g++ -g -Wall  -DOPEN_LOG server2.c  handle.c utils.c -o server2
+#g++ -g -Wall  -DOPEN_LOG client1.c  handle.c utils.c -o client1
+#g++ -g -Wall  -DOPEN_LOG servertime.c   utils.c -o servertime
+#g++ -g -Wall  -DOPEN_LOG clienttime.c   utils.c -o clienttime
+g++ -g -Wall  -DOPEN_LOG test.c   utils.c -o test
